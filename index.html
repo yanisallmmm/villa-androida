@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Entreprise de détergents en Algérie - Produits, avis, contact et informations." />
+  <title>Accueil | Détergents Algérie</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="index.html">Détergents DZ</a>
+      <nav class="main-nav" aria-label="Navigation principale">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">☰</button>
+        <ul id="nav-menu">
+          <li><a href="index.html" aria-current="page">Accueil</a></li>
+          <li><a href="products.html">Produits</a></li>
+          <li><a href="reviews.html">Avis</a></li>
+          <li><a href="about.html">À propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="admin.html" class="admin-link">Admin</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Propreté, qualité, confiance</h1>
+        <p>Fabricant algérien de détergents pour foyers et entreprises. Découvrez nos solutions efficaces et respectueuses.</p>
+        <a href="products.html" class="btn btn-primary">Voir nos produits</a>
+      </div>
+    </section>
+
+    <section class="highlights container">
+      <h2>Pourquoi nous choisir</h2>
+      <div class="grid-3">
+        <article class="card">
+          <h3>Qualité certifiée</h3>
+          <p>Formules testées et validées pour une efficacité maximale.</p>
+        </article>
+        <article class="card">
+          <h3>Made in Algérie</h3>
+          <p>Production locale avec des standards internationaux.</p>
+        </article>
+        <article class="card">
+          <h3>Engagement écologique</h3>
+          <p>Réduction des déchets et emballages recyclables.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="featured container">
+      <div class="section-head">
+        <h2>Produits en vedette</h2>
+        <a class="link" href="products.html">Tous les produits →</a>
+      </div>
+      <div id="featured-products" class="product-grid" aria-live="polite"></div>
+    </section>
+
+    <section class="cta">
+      <div class="container">
+        <h2>Essayez nos détergents aujourd'hui</h2>
+        <p>Des performances prouvées, des clients satisfaits partout en Algérie.</p>
+        <a href="reviews.html" class="btn">Lire les avis</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="logo">Détergents DZ</div>
+        <p>© <span id="year"></span> Tous droits réservés.</p>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="products.html">Produits</a></li>
+          <li><a href="about.html">À propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="reviews.html">Avis</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Suivez-nous</h4>
+        <ul class="socials">
+          <li><a href="#" aria-label="Facebook">Facebook</a></li>
+          <li><a href="#" aria-label="Instagram">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
